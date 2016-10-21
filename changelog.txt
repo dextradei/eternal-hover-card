@@ -1,0 +1,16 @@
+v1.0:
+First version
+
+v1.1:
+- Fixed a bunch of card names in the card name list
+- Fixed problem with "to", "the", and "of" in card image filenames
+- Fixed CSS to remove border from jquery tooltip
+
+v1.2:
+- Got permission from numotgaming.com to use their card images.
+- Added numotgaming.com logo to card images
+- card names link to www.numotgaming.com/series/eternal
+
+v1.3:
+- Fixed extension name from "Eternal Card Hover" to "Eternal Hover Card"
+- Created github repo https://github.com/dextradei/eternal-hover-card
