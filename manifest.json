@@ -1,0 +1,36 @@
+{
+  "name": "Eternal Card Hover",
+
+  "version": "1.2",
+  "description": "This is a custom built extension for Chrome. This extension identifies Eternal card names and adds hover popups of the card images.",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*", "file://*/*"
+  ],
+
+  "browser_action": {
+      "default_title": "Eternal Card Hover",
+      "default_icon": {
+		"19": "eternal-hover-card-19.png",
+		"38": "eternal-hover-card-38.png"
+	  }
+  },
+  
+  "icons": {
+	"16": "eternal-hover-card-16.png",
+	"48": "eternal-hover-card-48.png",
+	"128": "eternal-hover-card-128.png"
+  },
+
+  "content_scripts" : [
+    {
+      "matches" : ["http://*/*", "https://*/*", "file://*/*"],
+	  "exclude_matches" : ["http://www.numotgaming.com/*"],
+	  "css" : ["jquery-ui.css", "eternal-hover-card.css"],
+      "js" : ["jquery-1.12.4.js", "jquery-ui.js", "eternal-hover-card.js"],
+      "run_at" : "document_idle",
+      "all_frames" : false
+    }
+  ],
+
+  "manifest_version": 2
+}

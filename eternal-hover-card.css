@@ -1,0 +1,10 @@
+.eternal-hover-card-container {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+.eternal-hover-card {
+	border: none !important;
+	background-color: transparent !important;
+}
