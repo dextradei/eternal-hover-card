@@ -1,0 +1,7 @@
+goto http://eternal.cards and scroll down to load all cards
+f12 for browser tools, right click <html>, expand all, copy outerhtml, paste at this website:
+http://regexr.com/
+use this regex:
+data-card-name="([^"]+)"
+at the botton, click "List" and use this output format:
+$1|
