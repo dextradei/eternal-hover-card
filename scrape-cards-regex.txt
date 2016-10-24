@@ -5,3 +5,11 @@ use this regex:
 data-card-name="([^"]+)"
 at the botton, click "List" and use this output format:
 $1|
+
+
+Search+Replace ' -> \'
+Make sure:
+"Direwood Rampager" before "Rampage"
+"Devouring Shadow" before "Devour"
+"Accelerated Evolution" before "Accelerate"
+"Voprex, the Great Ruin" before "Ruin")
