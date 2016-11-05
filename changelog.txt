@@ -20,3 +20,10 @@ v1.4 (10/24/2016):
 - added scrape-cards-regex.txt, card-list.txt
 - fixed card order - longer names need to be before shorter ones ("Direwood Rampager" before "Rampage", "Devouring Shadow" before "Devour", "Accelerated Evolution" before "Accelerate", "Voprex, the Great Ruin" before "Ruin")
 - added fulltest.html to verify all cards work correctly
+
+v1.5 (11/4/2016):
+- Updated card list
+- Released on chrome store
+
+v1.6 (11/5/2016):
+- Added popup page with size slider.  Image size is now configurable.
