@@ -33,7 +33,7 @@ $(document).tooltip({
 var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, function(node) {
 	for (i = 0; i < cards.length; i++) {
 		var re = new RegExp(cards[i], 'gi');
-		if((regs = re.exec(node.textContent))) {
+		if((regs = re.exec(node.textContent.replace("’","'")))) {
 			if(!node.parentNode.classList.contains('eternal-hover-card-container')) {
 				var a = document.createElement('a');
 				a.href = "http://www.numotgaming.com/series/eternal/"
