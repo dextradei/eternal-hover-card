@@ -1,7 +1,7 @@
 {
 	"name": "Eternal Hover Card",
 
-	"version": "1.6",
+	"version": "1.7",
 	"description": "This is a custom built extension for Chrome. This extension identifies Eternal card names and adds hover popups of the card images.",
 	"permissions": [
 		"storage", "tabs", "http://*/*", "https://*/*", "file://*/*"

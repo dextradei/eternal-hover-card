@@ -27,3 +27,6 @@ v1.5 (11/4/2016):
 
 v1.6 (11/5/2016):
 - Added popup page with size slider.  Image size is now configurable.
+
+v1.7 (11/19/2016):
+- fix for apostrophes and commas
